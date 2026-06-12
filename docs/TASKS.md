@@ -12,7 +12,8 @@
 
 | 状態 | タスク | ブランチ | 内容 |
 | --- | --- | --- | --- |
-| 進行中 | 初期ゲーム実装と Pages 公開 | `codex/rtype-shooter-pages` | Canvas ゲーム、操作系、静的検証、Pages workflow、継続ルール |
+| 完了 | 初期ゲーム実装 | `codex/rtype-shooter-pages` | Canvas ゲーム、操作系、静的検証、Pages workflow、継続ルール |
+| 進行中 | Pages 初回有効化 | `codex/enable-pages-workflow` | GitHub Actions から Pages を初回有効化できるように workflow を調整 |
 
 ## 次に検討する拡張
 
