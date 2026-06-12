@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0a111d">
+    <title>AI R-Type 2</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell" aria-label="AI R-Type 2">
+      <section class="hud" aria-label="status">
+        <div class="brand">
+          <span class="mark" aria-hidden="true"></span>
+          <span>AI R-Type 2</span>
+        </div>
+        <div class="stats">
+          <span>Score <strong id="score">0</strong></span>
+          <span>Wave <strong id="wave">1</strong></span>
+          <span>Shield <strong id="shield">100</strong></span>
+          <span>Charge <strong id="charge">0</strong></span>
+        </div>
+      </section>
+
+      <section class="stage-wrap">
+        <canvas id="game" width="960" height="540" aria-label="side-scrolling shooter game"></canvas>
+        <div id="overlay" class="overlay">
+          <h1>AI R-Type 2</h1>
+          <p>横スクロールの敵編隊をかわし、ショットとチャージビームでコアを撃破。</p>
+          <button id="startButton" type="button">Start</button>
+        </div>
+        <div class="touch-controls" aria-label="touch controls">
+          <div id="stick" class="stick" aria-label="move control"><span></span></div>
+          <div class="touch-buttons">
+            <button id="touchFire" type="button" aria-label="fire">Fire</button>
+            <button id="touchCharge" type="button" aria-label="charge beam">Beam</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="controls" aria-label="controls">
+        <span>Move: WASD / Arrows / Left Stick</span>
+        <span>Fire: Space / A</span>
+        <span>Beam: Hold Shift / X</span>
+        <span>Pause: P / Start</span>
+      </section>
+    </main>
+    <script src="src/game.js"></script>
+  </body>
+</html>

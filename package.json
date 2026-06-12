@@ -1,0 +1,9 @@
+{
+  "name": "ai-rtype2",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A browser-based horizontal shooter inspired by classic side-scrolling arcade games.",
+  "scripts": {
+    "test": "node --check src/game.js && node scripts/check-static.mjs"
+  }
+}
